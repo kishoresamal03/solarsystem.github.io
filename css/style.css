@@ -1,0 +1,196 @@
+body{
+    height: 100vh;
+    background:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+.sun{
+    position: fixed;
+    background: radial-gradient(red,red,orange,black);
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    animation: pulse 3s linear infinite;
+}
+
+
+.path-1{
+    position: fixed;
+    height: 160px;
+    width: 160px;
+    /* border: 3px solid white; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: rotate 5s linear infinite;
+}
+
+.path-2{
+    position: fixed;
+    height: 210px;
+    width: 220px;
+    /* border: 3px solid white; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: rotate 10s linear infinite;
+}
+
+.planet-1{
+    position: relative;
+    left: -5rem;
+    border-radius: 50%;
+}
+
+.planet-2{
+    position: relative;
+    left: -7rem;
+    border-radius: 50%;
+}
+
+.path-3{
+    position: fixed;
+    height: 280px;
+    width: 310px;
+    /* border: 3px solid white; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: rotate 20s linear infinite;
+}
+
+.path-4{
+    position: fixed;
+    height: 340px;
+    width: 430px;
+    /* border: 3px solid white; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: rotate 40s linear infinite;
+}
+
+.planet-3{
+    position: relative;
+    left: -9.8rem;
+    border-radius: 50%;
+}
+
+.planet-4{
+    position: relative;
+    left: -13.5rem;
+    border-radius: 50%;
+}
+
+.path-5{
+    position: fixed;
+    height: 420px;
+    width: 590px;
+    /* border: 3px solid white; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: rotate 60s linear infinite;
+}
+
+.path-6{
+    position: fixed;
+    height: 550px;
+    width: 750px;
+    /* border: 3px solid white; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: rotate 90s linear infinite;
+}
+
+.planet-5{
+    position: relative;
+    left: -18.5rem;
+    border-radius: 50%;
+}
+
+.planet-6{
+    position: relative;
+    left: -23.5rem;
+}
+
+.path-7{
+    position: fixed;
+    height: 680px;
+    width: 980px;
+    /* border: 3px solid white; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: rotate 93s linear infinite;
+}
+
+.path-8{
+    position: fixed;
+    height: 800px;
+    width: 1250px;
+    /* border: 3px solid white; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: rotate 99s linear infinite;
+}
+
+.planet-7{
+    position: relative;
+    left: -30.7rem;
+    border-radius: 50%;
+}
+
+.planet-8{
+    position: relative;
+    left: -39.2rem;
+    border-radius: 50%;
+}
+
+.path-9{
+    position: fixed;
+    height: 910px;
+    width: 1600px;
+    /* border: 3px solid white; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: rotate 110s linear infinite;
+}
+
+.planet-9{
+    position: relative;
+    left: -50rem;
+    border-radius: 50%;
+}
+
+@keyframes rotate{
+    0%{ transform: rotate(0deg);}
+    100%{ transform: rotate(360deg);}
+}
+
+@keyframes pulse{
+    0%{ transform: scale(1);  box-shadow: 0 0 2px yellow;}
+    50%{ transform: scale(1.2);  box-shadow: 0 0 40px yellow;}
+    100%{ transform: scale(1); box-shadow: 0 0 2px yellow;}
+}
